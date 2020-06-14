@@ -1,0 +1,19 @@
+#include <iostream>
+#include<cstdlib>
+
+using namespace std;
+
+int main(){
+
+       char character;
+       cout << "Enter a character " << endl;
+       cin >> character;
+
+       if(character >= 65 && character <= 91)
+            cout << "Upper case" << endl;
+        else
+            cout << "Lower case" <<endl;
+            
+        return 0;
+}
+

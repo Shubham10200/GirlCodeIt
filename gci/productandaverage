@@ -1,0 +1,30 @@
+#include <iostream>
+#include<cstdlib>
+
+using namespace std;
+
+int main()
+{
+    int x, total = 0 , prod =1, average;
+    int counter = 0;
+    
+    while(1)
+    {
+        cout << "Enter an integer, q to quit" << endl;
+        cin >> x;
+        
+        if(x == 'q')
+            break;
+        else
+        {
+            total = total + x;
+            prod = prod * x;
+            counter++;
+        }
+        
+    }
+    average = total/ counter
+    cout << "Average = " << average << endl;
+    cout << "Product = " << product << endl;
+}
+

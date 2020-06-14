@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+        int f_temp, c_temp;
+        cout << "Enter the temperature in farenhite" << endl;
+        cin >> f_temp;
+        c_temp = (f_temp -32)*(5/9);
+
+        cout << f_temp << " farenhite = " << c_temp << " degree Celcius";;
+
+
+        return 0;
+}
+

@@ -1,0 +1,19 @@
+#include <iostream>
+#include<cstdlib>
+
+using namespace std;
+
+int main(){
+
+        int x = 2, y = 5, z = 0;
+
+        cout << (x == 2) << endl;            //true
+        cout << (x != 5) << endl;            //true
+        cout << (x != 5 && y >= 5) << endl;  //true
+        cout << (z != 0 || x == 2) << endl;  // true
+        cout << (!(y < 10)) << endl;         //false
+
+
+        return 0;
+}
+
